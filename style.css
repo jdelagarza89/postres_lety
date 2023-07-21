@@ -108,8 +108,13 @@ header {
 
 .hero{
     background-position: center;
+    height: 500px;
 }
 
+
+.hero-img{
+    height: fit-content;
+}
 
 .ham{
     display: block;

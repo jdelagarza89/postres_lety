@@ -71,7 +71,7 @@ header {
 
 .hero{
     height: 500px;
-    background-image: url("./assets/jello.jpeg");
+    background-image: url("./assets/jello.jpg");
     background-repeat: no-repeat;
     background-position-y:40%;
     background-size:cover

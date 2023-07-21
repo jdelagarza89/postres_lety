@@ -113,7 +113,8 @@ header {
 
 
 .hero-img{
-    height: fit-content;
+    height: 500px;
+    object-position: top;
 }
 
 .ham{

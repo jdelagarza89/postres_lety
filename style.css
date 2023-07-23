@@ -44,7 +44,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 10%;
-    border-bottom: 2px solid black;
+    
     background-color: #fef3f1;
 }
 
@@ -100,6 +100,99 @@ header {
     transition: all 0.3s ease-in-out;
     background-color: black;
 }
+
+.section{
+    padding:4rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.section-img{
+    margin-right: 2rem;
+    display: flex;
+}
+
+.section-txt{
+    margin-left:2rem;
+    display: flex;
+    flex-direction: column;
+   font-size: 30px;
+   
+}
+
+h1{
+    padding-bottom: 3rem;
+    font-size: 50px;
+    color:rgb(222, 94, 131) ;
+}
+
+#sec2-txt, .sec2-p{
+     background-color: #fef3f1;
+     
+   
+}
+
+.learn-btn{
+    margin-top: 5rem;
+width: 200px;
+padding: 1rem;
+border: 1px solid rgb(222, 94, 131);
+
+
+}
+
+.btn-txt{
+    font-size: 30px;
+    color: rgb(222, 94, 131);
+}
+
+
+#pro-head{
+    padding-top: 2rem;
+    display: flex;
+    padding-left: 3rem;
+    color: black;
+    overflow: hidden;
+    color: rgb(222, 94, 131);
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+    border-top:1px solid rgb(222, 94, 131)
+   
+}
+
+#second{
+    background-color: #fef3f1;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.section2-card{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width: 29%;
+}
+
+.sec2-h3{
+    font-size: 30px;
+    background-color: #fef3f1;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -157,5 +250,19 @@ header {
     left:0;
 
 }
+.section{
+    display: flex;
+    flex-direction: column;
+}
+.section-txt{
+ margin-top: 2rem;  
+}
+
+
+#sec2-img{
+    min-width: 70%;
+}
+
+
 }
     

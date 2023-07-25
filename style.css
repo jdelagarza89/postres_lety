@@ -121,7 +121,7 @@ header {
    
 }
 
-h1{
+h2{
     padding-bottom: 3rem;
     font-size: 50px;
     color:rgb(222, 94, 131) ;
@@ -186,10 +186,26 @@ hr{
 }
 
 
+.social-sec, .addy{
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.socialbtn{
+ margin: 3rem 3rem 0;
+}
 
 
+.socialink{
+    background-color: white;
+}
 
-
+.addy{
+font-size: 25px;
+}
 
 
 

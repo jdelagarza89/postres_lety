@@ -10,3 +10,16 @@ ham.addEventListener('click', () => {
     navMenu.classList.toggle("active");
 })
 
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.querySelector(".logo").style.width  = "75px";
+    document.querySelector('.nav_links').style.top = "75px";
+} else {
+
+    document.querySelector(".logo").style.width  = "150px";
+    document.querySelector('.nav_links').style.top = "150px";
+  }
+}

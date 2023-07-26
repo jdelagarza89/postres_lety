@@ -15,7 +15,8 @@
 
 
 .logo{
-    width: 150px;   
+    width: 150px; 
+    transition: .3s;  
 }
 
 

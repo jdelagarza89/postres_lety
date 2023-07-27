@@ -136,18 +136,24 @@ h2{
 }
 
 .learn-btn{
-    margin-top: 5rem;
-width: 200px;
-padding: 1rem;
-border: 1px solid rgb(222, 94, 131);
-
-
-}
-
-.btn-txt{
-    font-size: 30px;
     color: rgb(222, 94, 131);
+    text-align: center;
+    background-color: white;
+    margin-top: 5rem;
+    width: 200px;
+    padding: 1rem;
+    border: 1px solid rgb(222, 94, 131);
+
 }
+
+.learn-btn:hover{
+    background-color: rgb(222, 94, 131);
+    color: white;
+}
+
+
+    
+
 
 
 #pro-head{
@@ -242,6 +248,65 @@ font-size: 25px;
 }
 
 
+.menu-tit{
+    padding-top:13rem;
+    background-color: rgb(222, 94, 131);
+    
+}
+
+.menu-h2{
+background-color: rgb(222, 94, 131);
+color: white;
+margin-left: 3rem;
+}
+
+.menu-hr{
+    border-top: 1px solid white;
+    width: 80%;
+    
+}
+.menu-h3{
+    text-align: center;
+    background-color: rgb(222, 94, 131);
+    font-size: 40px;
+    color: white;
+    padding-top: 3rem;
+
+
+}
+
+.menu-sec1{
+    padding:4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(222, 94, 131);
+}
+
+.menu-sec1img{
+    width: 200px;
+    display: flex;
+}
+
+.menu-h4{
+    background-color: rgb(222, 94, 131);
+    color: white;
+    font-size: 30px;
+    padding: 2rem 0 2rem 0;
+    overflow: hidden;
+
+}
+
+.menu-p{
+background-color: rgb(222, 94, 131);
+color: white;
+font-size: 20px;
+}
+
+.menu-sec2, .menu-sec3, .menu-sec4, .menu-sec5{
+    background-color: rgb(222, 94, 131);
+}
+
 @media (max-width: 755px){
 
 
@@ -319,5 +384,19 @@ footer{
    
 }
 
+.menu-h2{
+    text-align: center;
+}
+.menu-sec1{
+    flex-direction: column;
+}
+
+.center{
+    text-align: center;
+}
+
+#reverse{
+    flex-direction: column-reverse;
+}
 }
     
